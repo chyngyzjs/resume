@@ -1,0 +1,66 @@
+h1 {
+    color: green;
+    transition: .5s;
+    background-color: blue;
+}
+
+h1:hover {
+    color: red;
+    font-size: 48px;
+    background-color: black;
+}
+
+#block {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: 3s;
+}
+/* div {
+    background-color: red !important;
+}
+
+div {
+    background-color: pink !important;
+} */
+
+#block:hover {
+    margin-left: 200px;
+}
+
+.items {
+    font-size: 24px;
+}
+
+.items:first-child {
+font-size: 30px;
+}
+
+.items:last-child {
+color: brown;
+}
+
+.items:nth-child(3) {
+    font-size: 28px;
+    color: darkblue;
+}
+
+.items:nth-child(odd) {
+    background-color: blue;
+}
+
+.items:nth-child(even) {
+    background-color: green;
+}
+
+strong::before {
+    content: '--';
+}
+
+strong::after {
+    content: '++';
+}
+input::placeholder {
+    color: red;
+    opacity: .5;    
+}

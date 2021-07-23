@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* @import url(../folder with fonts); */
+
+.heading-3 {
+    color: purple;
+    font-size: 100px;
+    font-weight: 700;
+    background-color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.block-3{
+    width: 100px;
+    height: 100px;
+    background: coral;
+    /* margin: 10px 20px 30px 40px; */
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+    /* padding: 10px 20px 30px 40px; */
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    /* border: 12px violet double; */
+    /* border-width: 12px;
+    border-top: violet double;
+    border-right: violet double;
+    border-bottom: violet dotted;
+    border-left: violet solid;
+    border-radius: 10px; */
+    
+}
